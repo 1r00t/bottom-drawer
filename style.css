@@ -15,16 +15,19 @@
     width: 100%;
     background-color: lightgrey;
 }
+
 .content2 {
     height: 100vh;
     width: 100%;
     background-color: lightblue;
 }
+
 .content3 {
     height: 100vh;
     width: 100%;
     background-color: lightcoral;
 }
+
 .content4 {
     height: 100vh;
     width: 100%;
@@ -37,8 +40,10 @@
     bottom: 0px;
     height: 100px;
     width: 100%;
-    transition: bottom 0.3s ease-out;
-    transition-delay: 0.5s;
+    -webkit-transition: bottom 0.3s ease-out 0.5s;
+    -moz-transition: bottom 0.3s ease-out 0.5s;
+    -o-transition: bottom 0.3s ease-out 0.5s;
+    transition: bottom 0.3s ease-out 0.5s;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -49,20 +54,28 @@
     bottom: -50vh;
     height: 50vh;
     width: 100%;
-    transition: bottom 0.5s ease-out;
-    transition-delay: 0s;
+    -webkit-transition: bottom 0.5s ease-out 0s;
+    -moz-transition: bottom 0.5s ease-out 0s;
+    -o-transition: bottom 0.5s ease-out 0s;
+    transition: bottom 0.5s ease-out 0s;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
 .drawerPlaceholderDown {
     bottom: -100px;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
     transition-delay: 0s;
 }
 
 .drawerUp {
     bottom: 0px;
     height: 50%;
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
     transition-delay: 0.3s;
 }
 
