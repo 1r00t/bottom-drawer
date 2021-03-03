@@ -6,8 +6,29 @@
 
 .container {
     background-color: lightgrey;
+    height: 100%;
+    width: 100%;
+}
+
+.content1 {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    background-color: lightgrey;
+}
+.content2 {
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+}
+.content3 {
+    height: 100vh;
+    width: 100%;
+    background-color: lightcoral;
+}
+.content4 {
+    height: 100vh;
+    width: 100%;
+    background-color: lightskyblue;
 }
 
 .drawerPlaceholder {
