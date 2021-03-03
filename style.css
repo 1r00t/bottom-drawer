@@ -38,7 +38,7 @@
     background-color: purple;
     position: fixed;
     bottom: 0px;
-    height: 100px;
+    height: 56px;
     width: 100%;
     -webkit-transition: bottom 0.3s ease-out 0.5s;
     -moz-transition: bottom 0.3s ease-out 0.5s;
@@ -63,7 +63,7 @@
 }
 
 .drawerPlaceholderDown {
-    bottom: -100px;
+    bottom: -56px;
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
