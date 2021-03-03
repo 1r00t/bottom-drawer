@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: lightgrey;
+    height: 100vh;
+    width: 100vw;
+}
+
+.drawerPlaceholder {
+    background-color: purple;
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    transition: bottom 0.3s ease-out;
+    transition-delay: 0.5s;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.drawer {
+    background-color: orange;
+    position: fixed;
+    bottom: -50vh;
+    height: 50vh;
+    width: 100%;
+    transition: bottom 0.5s ease-out;
+    transition-delay: 0s;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.drawerPlaceholderDown {
+    bottom: -100px;
+    transition-delay: 0s;
+}
+
+.drawerUp {
+    bottom: 0px;
+    height: 50%;
+    transition-delay: 0.3s;
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before,
+.close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
