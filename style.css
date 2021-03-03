@@ -80,7 +80,7 @@
 }
 
 .closeButton {
-    position: relative;
+    position: absolute;
     top: 35px;
     right: 35px;
 }
