@@ -51,8 +51,8 @@
 .drawer {
     background-color: orange;
     position: fixed;
-    bottom: -50vh;
-    height: 50vh;
+    bottom: -50%;
+    height: 50%;
     width: 100%;
     -webkit-transition: bottom 0.5s ease-out 0s;
     -moz-transition: bottom 0.5s ease-out 0s;
